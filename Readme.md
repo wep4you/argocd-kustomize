@@ -20,7 +20,7 @@ https://argo-cd.readthedocs.io/en/stable/
 
 Install Base Manifests from Argo CD GIT Repo with sample Local Ingress Controller on localhos without SSL, all in Folder base,
 
-    kubectl apply -k overlays/mgmt-cluster
+    kubectl apply -k base
 
 ### Option 2) Install wit Ingress, SSL and Specific Domain Name
 
