@@ -11,5 +11,5 @@ metadata:
 spec:
   tls:
     - hosts:
-        - argocd.127.0.0.1.nip.io
+        - argocd.local.wep4you.com
       secretName: tls-argocd-server-ingress
