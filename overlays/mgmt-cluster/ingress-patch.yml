@@ -4,5 +4,6 @@
 - op: replace
   path: /spec/rules/0/http/paths/0/backend/service/port/name
   value: https
-
-
+- op: replace
+  path: /spec/tls/0/hosts/0
+  value: argocd.local.wep4you.com
